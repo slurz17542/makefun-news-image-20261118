@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>The World in One Page — Wednesday 18 November 2026</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1024px; height: 1024px; }
+  body {
+    background: #f6f1e6;
+    color: #191713;
+    font-family: 'Noto Serif', 'DejaVu Serif', Georgia, serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page { width: 1024px; height: 1024px; padding: 20px 30px 18px; display: flex; flex-direction: column; }
+
+  /* ---- masthead ---- */
+  .dateline {
+    display: flex; justify-content: space-between;
+    font-family: 'Noto Sans', 'DejaVu Sans', sans-serif;
+    font-size: 12.5px; font-weight: 700; letter-spacing: 2.2px;
+    color: #8c1d12; text-transform: uppercase;
+    border-bottom: 2px solid #191713; padding-bottom: 5px;
+  }
+  h1 {
+    font-size: 50px; line-height: 1.02; font-weight: 900;
+    text-align: center; letter-spacing: 1px; padding: 8px 0 6px;
+  }
+  .subhead {
+    text-align: center; font-size: 15.5px; font-style: italic; color: #4a463c;
+    border-bottom: 5px solid #191713; padding-bottom: 8px; margin-bottom: 8px;
+  }
+
+  /* ---- lead story ---- */
+  .lead { display: flex; gap: 22px; height: 293px; border-bottom: 2px solid #191713; padding-bottom: 12px; }
+  .lead-text { width: 560px; flex: none; }
+  .kicker {
+    font-family: 'Noto Sans', 'DejaVu Sans', sans-serif;
+    font-size: 12px; font-weight: 800; letter-spacing: 2.4px; color: #8c1d12;
+    text-transform: uppercase; margin-bottom: 8px;
+  }
+  .lead-text h2 {
+    font-size: 37px; line-height: 1.06; font-weight: 900; letter-spacing: 0.2px;
+    margin-bottom: 10px;
+  }
+  .lead-text .deck { font-size: 17.5px; line-height: 1.38; margin-bottom: 8px; }
+  .lead-text .deck2 { font-size: 15px; line-height: 1.4; color: #4a463c; font-style: italic; }
+  .lead-img { flex: 1; position: relative; }
+  .lead-img img { width: 100%; height: 260px; object-fit: cover; display: block; }
+  .lead-img .cap {
+    font-family: 'Noto Sans', 'DejaVu Sans', sans-serif;
+    font-size: 10.5px; color: #6b675c; padding-top: 4px;
+  }
+
+  /* ---- story rows ---- */
+  .row { display: flex; gap: 20px; padding: 8px 0 8px; }
+  .row + .row { border-top: 1px solid #b9b2a2; }
+  .row article { flex: 1; min-width: 0; }
+  .row article img { width: 100%; height: 90px; object-fit: cover; display: block; margin-bottom: 7px; }
+  .row article h3 { font-size: 19px; line-height: 1.14; font-weight: 900; margin: 5px 0 5px; }
+  .row article p { font-size: 14px; line-height: 1.36; color: #2c2a25; }
+  .row article .kicker { margin-bottom: 0; }
+
+  /* ---- ticker ---- */
+  .ticker {
+    margin-top: auto; border-top: 5px solid #191713; padding-top: 9px;
+    font-family: 'Noto Sans', 'DejaVu Sans', sans-serif;
+  }
+  .ticker .tick-label {
+    font-size: 12px; font-weight: 800; letter-spacing: 2.2px; color: #fff;
+    background: #8c1d12; padding: 3px 8px; margin-right: 10px;
+  }
+  .ticker .tick-items { font-size: 14px; line-height: 1.5; }
+  .ticker .tick-items b { color: #8c1d12; }
+  .credit {
+    font-family: 'Noto Sans', 'DejaVu Sans', sans-serif;
+    font-size: 10px; color: #8a8474; text-align: right; padding-top: 4px;
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="dateline">
+    <span>Wednesday</span>
+    <span>18 November 2026</span>
+    <span>One day &middot; one page</span>
+  </div>
+  <h1>THE WORLD IN ONE PAGE</h1>
+  <div class="subhead">The day&rsquo;s news at a glance &mdash; from the Gulf to the far edge of the Solar System</div>
+
+  <section class="lead">
+    <div class="lead-text">
+      <div class="kicker">The Gulf &middot; Lead story</div>
+      <h2>U.S. HITS IRAN&rsquo;S QESHM ISLAND &mdash; TEHRAN STRIKES BACK AT GULF BASES</h2>
+      <p class="deck">American jets struck a Revolutionary Guard missile site after Iran fired drones at U.S. radar sites in Bahrain and Kuwait. Iran also said it shot down a U.S. drone near the Strait of Hormuz.</p>
+      <p class="deck2">Bahrain said it intercepted the drones; Washington confirmed its strike on the island. Shipping through the Strait stayed disrupted.</p>
+    </div>
+    <div class="lead-img">
+      <img src="assets/gulf.jpg" alt="Jets over the Gulf">
+      <div class="cap">Illustration: jets over the Gulf after the strikes.</div>
+    </div>
+  </section>
+
+  <section class="row">
+    <article>
+      <img src="assets/kerch.jpg" alt="The Kerch Bridge">
+      <div class="kicker">Ukraine</div>
+      <h3>UKRAINE HITS KERCH BRIDGE FOR A SECOND DAY</h3>
+      <p>Part of the road span fell into the strait as Kyiv pressed its attack on the Crimea crossing.</p>
+    </article>
+    <article>
+      <div class="kicker">Summit &middot; Shenzhen</div>
+      <h3>XI AND PUTIN OPEN APEC AS TRUMP LANDS FOR THREE-WAY TALKS</h3>
+      <p>Xi denounced protectionism, Putin criticised Western sanctions. Trump arrived from Manila; the three meet on Thursday.</p>
+    </article>
+    <article>
+      <div class="kicker">U.S. Politics</div>
+      <h3>PELTOLA WINS ALASKA &mdash; DEMOCRATS TAKE 56 SENATE SEATS</h3>
+      <p>Mary Peltola beat Republican Dan Sullivan, the party&rsquo;s ninth Senate flip of the midterms and its largest majority since 2009.</p>
+    </article>
+  </section>
+
+  <section class="row">
+    <article>
+      <div class="kicker">Health</div>
+      <h3>U.S. LOSES MEASLES-FREE STATUS AFTER 26 YEARS</h3>
+      <p>5,412 cases in 2026 &mdash; the most since 1991 &mdash; and 10 deaths, as the virus spread for more than a year, health officials said.</p>
+    </article>
+    <article>
+      <div class="kicker">Health &middot; DR Congo</div>
+      <h3>EBOLA IN CONGO PASSES 11,000 CASES</h3>
+      <p>The outbreak has more than doubled in three months, with 5,400 deaths, the UN said &mdash; already the second-largest Ebola outbreak on record.</p>
+    </article>
+    <article>
+      <img src="assets/voyager.jpg" alt="Voyager 1 in deep space">
+      <div class="kicker">Space</div>
+      <h3>VOYAGER 1 REACHES ONE LIGHT-DAY FROM EARTH</h3>
+      <p>At 5:16 a.m. ET the 1977 probe stood 16 billion miles out &mdash; a radio signal now takes a full day to reach it.</p>
+    </article>
+  </section>
+
+  <footer class="ticker">
+    <span class="tick-label">ALSO TODAY</span>
+    <span class="tick-items">Russian military plane crashes in Siberia &mdash; <b>19 dead</b> &nbsp;&middot;&nbsp; Cyclone Xavier, <b>Category 5</b>, batters the Northern Cook Islands &nbsp;&middot;&nbsp; Magnitude <b>6 quake</b> strikes Papua New Guinea &nbsp;&middot;&nbsp; Four nations urge Israel to let aid reach flooded Gaza &nbsp;&middot;&nbsp; World Court to rule on Myanmar genocide case &nbsp;&middot;&nbsp; 5.3 quake shakes Romania</span>
+    <div class="credit">Illustrations drawn for this page</div>
+  </footer>
+
+</div>
+</body>
+</html>
